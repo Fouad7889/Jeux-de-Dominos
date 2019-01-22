@@ -1,0 +1,159 @@
+ 
+ .body {
+    background-color:green;
+    margin:2px;
+ } 
+
+ /*.rectangle1{
+     Background-color:white;
+     border:2px solid black;
+     text-align: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     height: 40px;
+     width: 80px;
+              
+ } 
+
+* {  
+    border: 0.50px red; /*guide rulers*/
+
+.menu {
+width: 15%;
+height: 500px;
+background-color:grey;
+float:left;
+border: 1px solid black;
+
+
+}
+.boutons {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: center;
+}
+
+button:hoover {
+  background-color: aqua;
+
+}
+
+section {
+  background-color: blue;
+  margin-left: 230px;
+  border: 1px solid black;
+
+}
+footer {
+  background-color: red;
+  width: 100%;
+  height:200px;
+  margin-top: 510px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+  
+}
+
+.dominoe0-0 {
+/* Dominoe shape */
+    position: absolute;
+    /*left:5px;
+    top:5px;*/
+    height:76px;
+    width:40px;
+    background-color:white;
+    border: 1px solid black;
+    
+    /*Rounded Corners
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+    border-radius: 10px;
+    padding:2px;
+    
+}
+.dominoe0-1 {
+/* Dominoe shape */
+    position: absolute;
+    left:55px;
+    /*top:5px;*/
+    height:76px;
+    width:40px;
+    background-color:white;
+    border: 1px solid black;
+   
+    /*Rounded Corners
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+    border-radius: 10px;
+    padding:2px;
+    
+}
+
+
+.dominoe5-0 {
+/* Dominoe shape */
+    position: absolute;
+    left:100px;
+    /*top:5px;*/
+    height:76px;
+    width:40px;
+    background-color:white;
+    border: 1px solid black;
+   
+    /*Rounded Corners
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;*/
+    border-radius: 10px;
+    padding:2px;
+    
+}
+.point > div {
+    border-radius: 50%;
+    width: 5px; /* width and height can be anything, as long as they're equal */
+    height: 5px; 
+    background-color:black;
+    
+}  
+.line {
+    width:90%;
+    height:2%;
+    background-color:black;
+    margin-left: 5%;
+}
+
+.half1 { 
+  width: 70%;
+  height: 32%;
+  padding: 14%;
+} 
+
+/* setting padding removes the need to position the top-left, top-right, bottom-left and bottom-right elements */
+
+.point {
+  width: 100%;
+  height: 21.333%;
+  padding: 8% 0% 8% 0%; 
+  /* eliminates need for vertical positioning */
+}
+
+.point:first-child {
+  padding-top: 0%;
+}
+.point:last-child {
+  padding-bottom: 0%;
+}
+
+.right {
+  float: right;
+}
+.left {
+  float: left;
+}
+.middle {
+  margin: auto;
+}

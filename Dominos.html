@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jeux de Dominos</title>
+  <link rel="stylesheet" type="text/css" href="domino.css">
+  <script src="dominos.js"></script>
+</head>
+
+<body class="body">
+
+
+  <nav class="menu">
+    <div class="boutons" id="boutonTest">
+      <button>Commencer</button>
+      <button>Jouer</button>
+      <button>Passer</button>
+      <button>Quitter</button>
+    </div>
+  </nav>
+
+
+  <section>board</section>
+  <footer>
+    <div class="dominoe0-0">
+      <div class="half1"></div>
+      <div class="line"></div>
+      <div class="half2"></div>
+    </div>
+
+    <div class="dominoe0-1">
+      <div class="half1"></div>
+      <div class="line"></div>
+      <div class="half2">
+        <div class="point">
+          <!--called point:first-child in Css, points gauche et droite du haut-->
+          <div class="middle"></div>
+        </div>
+      </div>
+
+      <div class="dominoe5-0">
+        <div class="half1">
+          <div class="point">
+            <!--called point:first-child in Css, points gauche et droite du haut-->
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+          <div class="point">
+            <div class="middle"></div>
+          </div>
+          <div class="point">
+            <!--called point:last-child in Css, points gauche et droite du bas-->
+            <div class="left"></div>
+            <div class="right"></div>
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="half2"></div>
+      </div>
+  </footer>
+
+</body>
+
+</html>
