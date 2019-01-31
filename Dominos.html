@@ -4,15 +4,15 @@
 <head>
   <meta charset="UTF-8">
   <title>Jeux de Dominos</title>
-  <link rel="stylesheet" type="text/css" href="domino.css">
-  <script src="dominos.js"></script>
+  <link rel="stylesheet" type="text/css" href="dominos.css">
+
 </head>
 
 <body class="body">
 
 
   <nav class="menu">
-    <div class="boutons" id="boutonTest">
+    <div id="boutons">
       <button>Commencer</button>
       <button>Jouer</button>
       <button>Passer</button>
@@ -21,44 +21,101 @@
   </nav>
 
 
-  <section>board</section>
+  <section class="board">
+    <div class="player1"><button>Player 1</button></div>
+    <div class="player2"><button>Player 2</button></div>
+    <div class="player3"><button>Player 3</button></div>
+    <div class="player4"><button>Player 4</button></div>
+  </section>
+
   <footer>
-    <div class="dominoe0-0">
+    <div id="dominoe0-0">
       <div class="half1"></div>
       <div class="line"></div>
       <div class="half2"></div>
     </div>
 
-    <div class="dominoe0-1">
+    <div id="dominoe0-1">
       <div class="half1"></div>
       <div class="line"></div>
       <div class="half2">
         <div class="point">
-          <!--called point:first-child in Css, points gauche et droite du haut-->
           <div class="middle"></div>
         </div>
       </div>
+    </div>
 
-      <div class="dominoe5-0">
-        <div class="half1">
-          <div class="point">
-            <!--called point:first-child in Css, points gauche et droite du haut-->
-            <div class="left"></div>
-            <div class="right"></div>
-          </div>
-          <div class="point">
-            <div class="middle"></div>
-          </div>
-          <div class="point">
-            <!--called point:last-child in Css, points gauche et droite du bas-->
-            <div class="left"></div>
-            <div class="right"></div>
-          </div>
+    <div id="dominoe1-1">
+      <div class="half1">
+        <div class="point">
+          <div class="middle"></div>
         </div>
-        <div class="line"></div>
-        <div class="half2"></div>
       </div>
+      <div class="line"></div>
+      <div class="half2">
+        <div class="point">
+          <div class="middle"></div>
+        </div>
+      </div>
+    </div>
+
+    <div id="dominoe0-2">
+      <div class="half1"></div>
+      <div class="line"></div>
+      <div class="half2">
+        <div class="point">
+          <div class="left"></div>
+          <div class="right"></div>
+          <!--<div class="middle"></div>-->
+        </div>
+      </div>
+    </div>
+
+
+    <div id="dominoe5-0">
+      <div class="half1">
+        <div class="point">
+          <!--called point:first-child in Css, points gauche et droite du haut-->
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="point">
+          <div class="middle"></div>
+        </div>
+        <div class="point">
+          <!--called point:last-child in Css, points gauche et droite du bas-->
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="half2"></div>
+    </div>
+
+    <div id="dominoe5-1">
+      <div class="half1">
+        <div class="point">
+          <!--called point:first-child in Css, points gauche et droite du haut-->
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+        <div class="point">
+          <div class="middle"></div>
+        </div>
+        <div class="point">
+          <!--called point:last-child in Css, points gauche et droite du bas-->
+          <div class="left"></div>
+          <div class="right"></div>
+        </div>
+      </div>
+      <div class="line"></div>
+      <div class="half2"></div>
+      <div class="point">
+        <div class="middle"></div>
+      </div>
+    </div>
   </footer>
+  <script src="dominos.js"></script>
 
 </body>
 

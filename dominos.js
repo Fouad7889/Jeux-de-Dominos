@@ -1,16 +1,32 @@
-/*console.log(document.getElementById('boutonTest'));
-console.log(document.getElementsByClassName('boutons'));
+/*var add = 0;
 
-document.getElementById('boutonTest').addEventListener('click', function () {
-    console.log('aEteClické')
-})
-
-function ecritAEteClicker() {
-    console.log('aEteClické');
-
+function rotate() {
+    document.getElementById("dominoe5-0").style.transform = 'rotate(' + add + 'deg)';
+    add += 90;
+}
+window.onload = function () {
+    var el = document.getElementById("dominoe5-0");
+    if (el) {
+        el.addEventListener("click", rotate, true);
+    }
 }*/
+var add = 0;
 
-var userName = prompt('Entrez votre prénom :');
-alert(userName); // Affiche le prénom entré par l'utilisateur
+function rotate() {
+    document.getElementById("dominoe0-0").style.transform = 'rotate(' + add + 'deg)';
+    add += 90;
+}
+var el = document.getElementById("dominoe0-0");
+el.addEventListener("click", rotate);
+
+var t = new Array(1, 2, 3, 4, 5);
+t.shuffle();     // on mélange le tableau
+
+console.log(t);
 
 
+/*function melange
+function distribution
+function placement
+function pioche
+function victorieux*/
